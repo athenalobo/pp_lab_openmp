@@ -1,10 +1,10 @@
 for execution:
 
-gedit ath.c
+1) gedit ath.c
 
-gcc -fopenmp ath.c 
-gcc -lm -fopenmp ath.c
+2) gcc -fopenmp ath.c 
+   gcc -lm -fopenmp ath.c
 
-export OMP_NUM_THREADS=8
+3) export OMP_NUM_THREADS=8
 
-./a.out
+4) ./a.out
